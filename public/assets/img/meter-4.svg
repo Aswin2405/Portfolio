@@ -1,0 +1,52 @@
+<svg
+  width="204"
+  height="204"
+  viewBox="0 0 204 204"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  {/* Background Circle (Track) */}
+  <circle cx="102" cy="102" r="90" stroke="#E6E6E6" strokeWidth="15" fill="none" />
+
+  {/* Progress Arc (50%) */}
+  <circle
+    cx="102"
+    cy="102"
+    r="90"
+    stroke="red"
+    strokeWidth="15"
+    fill="none"
+    strokeLinecap="round"
+    strokeDasharray="565.48"
+    strokeDashoffset="282.74"
+    transform="rotate(-90 102 102)"
+  />
+
+  {/* Percentage Text */}
+  <text
+    x="50%"
+    y="50%"
+    textAnchor="middle"
+    dominantBaseline="middle"
+    fontSize="64"
+    fontFamily="Arial, sans-serif"
+    fill="white"
+  >
+    50%
+  </text>
+
+  {/* Gradient Definition */}
+  <defs>
+    <linearGradient
+      id="paint0_linear_16_344"
+      x1="-12.4348"
+      y1="91.2145"
+      x2="228.124"
+      y2="92.098"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stopColor="#AA367C" />
+      <stop offset="1" stopColor="#4A2FBD" />
+    </linearGradient>
+  </defs>
+</svg>
